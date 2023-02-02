@@ -16,25 +16,21 @@ const About = () => (
       viewport={{ once: false, amount: 0.25 }}
       className={`${styles.innerWidth} mx-auto ${styles.flexCenter} flex-col`}
     >
-      <TypingText title="| About Metaversus" textStyles="text-center" />
+      <TypingText title="| Sobre Mim" textStyles="text-center" />
 
       <motion.p
         variants={fadeIn('up', 'tween', 0.2, 1)}
         className="mt-[8px] font-normal sm:text-[32px] text-[20px] text-center text-secondary-white"
       >
-        <span className="font-extrabold text-white">Metaverse</span> is a new
-        thing in the future, where you can enjoy the virtual world by feeling
-        like it's really real, you can feel what you feel in this metaverse
-        world, because this is really the{' '}
+        <span className="font-extrabold text-white">Minha Descrição</span> Você que
+        aterrisou aqui.... seja bem-vindo a bordo, este daqui é meu {' '}
         <span className="font-extrabold text-white">
-          madness of the metaverse
+          portifolio pessoal
         </span>{' '}
-        of today, using only{' '}
-        <span className="font-extrabold text-white">VR</span> devices you can
-        easily explore the metaverse world you want, turn your dreams into
-        reality. Let's{' '}
-        <span className="font-extrabold text-white">explore</span> the madness
-        of the metaverse by scrolling down
+        um pouquinho sobre mim que talvéz você não saiba, mais é que eu sou {' '}
+        <span className="font-extrabold text-white">Full-Stack</span>Sabe o que isto quer dizer?
+        É que eu sou totalmente {' '}
+        <span className="font-extrabold text-white">APAIXONADO </span>por tecnologias.
       </motion.p>
 
       <motion.img
